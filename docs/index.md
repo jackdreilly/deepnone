@@ -2,6 +2,13 @@
 
 _Safe, simple access to optional nested attributes_
 
+## Install [PyPI](https://pypi.org/project/deepnone/)
+
+```bash
+pip install deepnone
+```
+
+
 ## How
 
 Wrap untrusted value in `dn()`, transform it, then `get` it.

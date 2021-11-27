@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "deepnone"
+version = "0.1.0"
+description = "Deeply accees optional fields, without all the none-checks"
+authors = ["Jack Reilly <jackdreilly@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+black = {version = "^21.11b1", allow-prereleases = true}
+flake8 = "^4.0.1"
+mkdocs-material = "<8"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.isort]
+profile = "black"

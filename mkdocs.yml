@@ -1,0 +1,8 @@
+theme:
+  name: material
+site_name: DeepNone
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.snippets

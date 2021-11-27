@@ -37,4 +37,4 @@ jobs:
       - name: test
         run: poetry run pytest
       - name: deploy docs
-        run: poetry run mkdocs gh-deploy
+        run: poetry run mkdocs gh-deploy --force

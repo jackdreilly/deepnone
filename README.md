@@ -4,7 +4,7 @@ _Safe, simple access to optional nested attributes_
 
 [Home Page (https://jackdreilly.github.io/deepnone/)](https://jackdreilly.github.io/deepnone/)
 
-## Install [PyPI](https://pypi.org/project/deepnone/)
+## Install from [PyPI](https://pypi.org/project/deepnone/)
 
 ```bash
 pip install deepnone
